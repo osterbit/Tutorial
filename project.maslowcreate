@@ -15,6 +15,13 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9855907780979828,
+                    "y": 0.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Input",
                     "name": "Shape",
                     "x": 30,
@@ -80,13 +87,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -125,8 +125,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 102,
-                    "y": 58,
+                    "x": 0.6757352941176471,
+                    "y": 0.4952978056426332,
                     "uniqueID": 632755,
                     "ioValues": [
                         {
@@ -138,6 +138,13 @@
                             "ioValue": 20
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9855907780979828,
+                    "y": 0.5,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -286,13 +293,6 @@
                     "uniqueID": 650474,
                     "ioValues": [],
                     "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
